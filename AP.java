@@ -44,7 +44,6 @@ public class AP {
 	public static String[] repeatWords(String[] arr1, String[] arr2) {
 		String[] res = new String[0];
 		for (String word1 : arr1) {
-			boolean isSame = false;
 			for (String word2 : arr2) {
 				if (word1.equals(word2)) {
 					res = expandArray(res, word1.split(" "));

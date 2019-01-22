@@ -6,8 +6,6 @@ package net.ukr.andy777;
  Содержимым этого файла должны быть слова, которые одновременно есть и в первом и во втором файле.
  */
 
-import java.io.*;
-
 public class Main {
 	public static void main(String[] args) {
 
@@ -26,7 +24,7 @@ public class Main {
 		System.out.println();
 
 		AP.scPrintStringArray(AP.repeatWords(wordsFile1, wordsFile2));
-//		FileOperation.fileWrite(fileNeme3, AP.repeatWords(wordsFile1, wordsFile2));
+		FileOperation.fileWrite(fileNeme3, AP.repeatWords(wordsFile1, wordsFile2));
 	
 	}
 }
